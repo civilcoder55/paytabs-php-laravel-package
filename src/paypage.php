@@ -160,6 +160,7 @@ class paypage
                     'status' => 'redirect',
                     'success' => true,
                     'redirect_url' => $response->redirect_url,
+                    'tran_ref' => $response->tran_ref,
                     'framed' => isset($pp_params['framed']) && $pp_params['framed'] == true,
                 ];
             } else {
